@@ -19,12 +19,13 @@ interface Game {
 }
 
 const games: Game[] = [
-  { id: 1, title: 'Cyberpunk 2077', price: 1299, oldPrice: 2499, discount: 48, category: 'RPG', image: '/placeholder.svg', rating: 4.5 },
-  { id: 2, title: 'Elden Ring', price: 1899, oldPrice: 2999, discount: 37, category: 'Action', image: '/placeholder.svg', rating: 4.9 },
-  { id: 3, title: 'Red Dead Redemption 2', price: 1699, category: 'Action', image: '/placeholder.svg', rating: 4.8 },
-  { id: 4, title: 'Baldurs Gate 3', price: 2299, oldPrice: 2699, discount: 15, category: 'RPG', image: '/placeholder.svg', rating: 4.9 },
-  { id: 5, title: 'Hogwarts Legacy', price: 1999, category: 'RPG', image: '/placeholder.svg', rating: 4.6 },
-  { id: 6, title: 'GTA V', price: 899, oldPrice: 1499, discount: 40, category: 'Action', image: '/placeholder.svg', rating: 4.7 },
+  { id: 1, title: 'Bioshock 2', price: 140, category: 'Action', image: '/placeholder.svg', rating: 4.7 },
+  { id: 2, title: 'Peaky Blinders: Mastermind', price: 100, category: 'Strategy', image: '/placeholder.svg', rating: 4.2 },
+  { id: 3, title: 'POSTAL 2: Paradise Lost (DLC)', price: 50, category: 'Action', image: '/placeholder.svg', rating: 4.3 },
+  { id: 4, title: 'POSTAL 2', price: 70, category: 'Action', image: '/placeholder.svg', rating: 4.4 },
+  { id: 5, title: 'The LEGO Movie - Videogame', price: 120, category: 'Adventure', image: '/placeholder.svg', rating: 4.5 },
+  { id: 6, title: 'LEGO The Hobbit', price: 120, category: 'Adventure', image: '/placeholder.svg', rating: 4.6 },
+  { id: 7, title: 'Bully: Scholarship Edition', price: 500, category: 'Action', image: '/placeholder.svg', rating: 4.8 },
 ];
 
 export default function Index() {
@@ -154,7 +155,7 @@ export default function Index() {
             </h3>
             <Badge variant="destructive" className="text-sm px-3 py-1 animate-pulse-glow">
               <Icon name="Clock" className="mr-1" size={14} />
-              До конца акции: 23:45:12
+              Акция с 20 декабря по 2 января
             </Badge>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -203,8 +204,9 @@ export default function Index() {
           <Tabs defaultValue="all" className="w-full" onValueChange={setSelectedCategory}>
             <TabsList className="mb-8">
               <TabsTrigger value="all">Все игры</TabsTrigger>
-              <TabsTrigger value="rpg">RPG</TabsTrigger>
               <TabsTrigger value="action">Action</TabsTrigger>
+              <TabsTrigger value="strategy">Strategy</TabsTrigger>
+              <TabsTrigger value="adventure">Adventure</TabsTrigger>
             </TabsList>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

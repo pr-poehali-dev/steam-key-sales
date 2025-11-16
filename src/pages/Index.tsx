@@ -54,7 +54,7 @@ export default function Index() {
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
                 <Icon name="Gamepad2" className="text-white" size={24} />
               </div>
-              <h1 className="text-2xl font-bold neon-text">SteamKeys</h1>
+              <h1 className="text-2xl font-bold neon-text">M3TA SHOP</h1>
             </div>
             
             <nav className="hidden md:flex items-center gap-6">
@@ -122,7 +122,7 @@ export default function Index() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-3xl mx-auto space-y-6">
             <h2 className="text-5xl md:text-6xl font-bold neon-text animate-fade-in">
-              Игровые ключи Steam
+              M3TA SHOP
             </h2>
             <p className="text-xl text-muted-foreground">
               Мгновенная доставка на email • Лучшие цены • Гарантия подлинности
@@ -252,7 +252,7 @@ export default function Index() {
           <div className="max-w-3xl mx-auto text-center space-y-6">
             <h3 className="text-3xl font-bold">О магазине</h3>
             <p className="text-lg text-muted-foreground">
-              SteamKeys — надежный магазин цифровых ключей для Steam. Мы работаем с 2020 года 
+              M3TA SHOP — надежный магазин цифровых ключей для Steam. Мы работаем с 2020 года 
               и доставили более 100,000 ключей игрокам по всему миру.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
@@ -294,7 +294,7 @@ export default function Index() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-medium">support@steamkeys.ru</p>
+                    <p className="font-medium">support@metashop.ru</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -303,7 +303,7 @@ export default function Index() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Telegram</p>
-                    <p className="font-medium">@steamkeys_support</p>
+                    <p className="font-medium">@metashop_support</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -328,7 +328,7 @@ export default function Index() {
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
                 <Icon name="Gamepad2" className="text-white" size={20} />
               </div>
-              <span className="font-bold">SteamKeys © 2024</span>
+              <span className="font-bold">M3TA SHOP © 2024</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Все цены указаны в рублях. Мгновенная доставка на email.
